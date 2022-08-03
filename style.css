@@ -31,4 +31,29 @@ h1 {
     box-shadow: 3px 1px 5px 2px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 3px 1px 5px 2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 1px 5px 2px rgba(0, 0, 0, 0.75);
+    transform: translateX(300%);
+    -webkit-transform: translateX(300%);
+    -moz-transform: translateX(300%);
+    -ms-transform: translateX(300%);
+    -o-transform: translateX(300%);
+    transition: 04s ease;
+    -webkit-transition: 04s ease;
+    -moz-transition: 04s ease;
+    -ms-transition: 04s ease;
+    -o-transition: 04s ease;
+}
+
+.box:nth-of-type(even){
+    transform: translateX(-300%);
+    -webkit-transform: translateX(-300%);
+    -moz-transform: translateX(-300%);
+    -ms-transform: translateX(-300%);
+    -o-transform: translateX(-300%);
+}
+.box.show{
+    transform: translateX(0);
+    -webkit-transform: translatex(0);
+    -moz-transform: translatex(0);
+    -ms-transform: translatex(0);
+    -o-transform: translatex(0);
 }
